@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0 (Python 3.9.2 on win32)" generated="20210410 20:55:19.959" rpa="false" schemaversion="2">
+<suite id="s1" name="ArgumentsDemo" source="C:\Users\sun90\Documents\Pycharm\src\github.com\sarkarsun\PycharmProject\Tests\Arguments\ArgumentsDemo.robot">
+<test id="s1-t1" name="Arguments demo keyword test">
+<kw name="Arguments demo keyword">
+<arg>Tallinn</arg>
+<arg>University</arg>
+<kw name="Log" library="BuiltIn">
+<arg>${arg1}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210410 20:55:20.024" level="INFO">Tallinn</msg>
+<status status="PASS" starttime="20210410 20:55:20.024" endtime="20210410 20:55:20.024"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${arg2}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210410 20:55:20.024" level="INFO">University</msg>
+<status status="PASS" starttime="20210410 20:55:20.024" endtime="20210410 20:55:20.024"/>
+</kw>
+<status status="PASS" starttime="20210410 20:55:20.024" endtime="20210410 20:55:20.024"/>
+</kw>
+<status status="PASS" starttime="20210410 20:55:20.024" endtime="20210410 20:55:20.024"/>
+</test>
+<test id="s1-t2" name="Arguments demo keyword test2">
+<kw name="Arguments demo keyword">
+<arg>Game</arg>
+<arg>Night</arg>
+<kw name="Log" library="BuiltIn">
+<arg>${arg1}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210410 20:55:20.029" level="INFO">Game</msg>
+<status status="PASS" starttime="20210410 20:55:20.029" endtime="20210410 20:55:20.029"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${arg2}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210410 20:55:20.029" level="INFO">Night</msg>
+<status status="PASS" starttime="20210410 20:55:20.029" endtime="20210410 20:55:20.029"/>
+</kw>
+<status status="PASS" starttime="20210410 20:55:20.029" endtime="20210410 20:55:20.029"/>
+</kw>
+<status status="PASS" starttime="20210410 20:55:20.024" endtime="20210410 20:55:20.029"/>
+</test>
+<status status="PASS" starttime="20210410 20:55:19.964" endtime="20210410 20:55:20.034"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="ArgumentsDemo">ArgumentsDemo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

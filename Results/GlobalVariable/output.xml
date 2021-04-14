@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0 (Python 3.9.2 on win32)" generated="20210410 19:55:07.993" rpa="false" schemaversion="2">
+<suite id="s1" name="GlobalVariable" source="C:\Users\sun90\Documents\Pycharm\src\github.com\sarkarsun\PycharmProject\Tests\GlobalVariable\GlobalVariable.robot">
+<test id="s1-t1" name="This is demo Test 1">
+<kw name="Set Variable" library="BuiltIn">
+<var>${variable_demo}</var>
+<arg>This is TESTCASE variable</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20210410 19:55:08.053" level="INFO">${variable_demo} = This is TESTCASE variable</msg>
+<status status="PASS" starttime="20210410 19:55:08.053" endtime="20210410 19:55:08.053"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${VARIABLE_DEMO}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210410 19:55:08.053" level="INFO">This is TESTCASE variable</msg>
+<status status="PASS" starttime="20210410 19:55:08.053" endtime="20210410 19:55:08.053"/>
+</kw>
+<status status="PASS" starttime="20210410 19:55:08.048" endtime="20210410 19:55:08.053"/>
+</test>
+<test id="s1-t2" name="This is demo Test 2">
+<kw name="Log" library="BuiltIn">
+<arg>${VARIABLE_DEMO}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210410 19:55:08.058" level="INFO">This is GLOBAL Variable</msg>
+<status status="PASS" starttime="20210410 19:55:08.058" endtime="20210410 19:55:08.058"/>
+</kw>
+<status status="PASS" starttime="20210410 19:55:08.053" endtime="20210410 19:55:08.058"/>
+</test>
+<test id="s1-t3" name="This is demo Test 3">
+<kw name="This is demo keyword">
+<kw name="Log" library="BuiltIn">
+<arg>${VARIABLE_DEMO}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210410 19:55:08.058" level="INFO"> This is KEYWORD variable</msg>
+<status status="PASS" starttime="20210410 19:55:08.058" endtime="20210410 19:55:08.058"/>
+</kw>
+<status status="PASS" starttime="20210410 19:55:08.058" endtime="20210410 19:55:08.058"/>
+</kw>
+<status status="PASS" starttime="20210410 19:55:08.058" endtime="20210410 19:55:08.058"/>
+</test>
+<status status="PASS" starttime="20210410 19:55:07.993" endtime="20210410 19:55:08.063"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="GlobalVariable">GlobalVariable</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,13 @@
+1618582722824	geckodriver	INFO	Listening on 127.0.0.1:57048
+1618582725773	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sun90\\AppData\\Local\\Temp\\rust_mozprofileWi3pyk"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618582732925	Marionette	INFO	Listening on port 57059
+1618582733047	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Policies.jsm: 
+  Download failed - ERROR_NETWORK_FAILURE - https://addons.mozilla.org/firefox/downloads/latest/token-signing2/latest.xpi
+console.error: Policies.jsm: 
+  Download failed - ERROR_NETWORK_FAILURE - https://addons.mozilla.org/firefox/downloads/latest/pkcs11-module-loader/latest.xpi
+1618582768932	Marionette	INFO	Stopped listening on port 57059
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

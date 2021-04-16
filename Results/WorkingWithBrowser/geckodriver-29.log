@@ -1,0 +1,10 @@
+1618582864115	geckodriver	INFO	Listening on 127.0.0.1:57148
+1618582867023	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sun90\\AppData\\Local\\Temp\\rust_mozprofile1a84z1"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618582871559	Marionette	INFO	Listening on port 57159
+1618582871833	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 12880, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1618582883699	Marionette	INFO	Stopped listening on port 57159
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
